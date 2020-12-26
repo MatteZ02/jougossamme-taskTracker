@@ -30,7 +30,7 @@ button {
 }
 
 input {
-    height: 50px;
+    height: 30px;
     width: 150px;    
 }
 
@@ -40,4 +40,9 @@ th {
 
 p {
     font-size: 20px;
+    margin: 6px 0px;
+}
+
+h2, h1 {
+    margin: 6px 0px;
 }
