@@ -1,0 +1,36 @@
+* {
+    font-family: monospace;
+    font-size: 24px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+tr {
+    padding-right: 15px;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.pending {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: lime;
+}
+
+.inactive {
+    background-color: red;
+}
+
+.impostor {
+    color: red;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasks</title>
+
+</head>
+
+<body>
+    <h2 id="role"></h2>
+    <p>Suosittelemme käyttämään omaa etunimeäsi, koska jos nettiyhteytesi katkeaa pelin aikana, voit palata peliin samalla käyttäjänimellä.
+    </p>
+    <h1>Käyttäjänimi: <input type="text", id="playername"><button id="login" class="inactive" onclick="login()">OK</button></h1>
+    <table>
+        <tr>
+            <th>Palju</th>
+            <th><button class="inactive" id="1" onclick="taskcomplete('1')">X</button></th>
+        </tr>
+        <tr>
+            <th>Kastelu</th>
+            <th><button class="inactive" id="2" onclick="taskcomplete('2')">X</button></th>
+        </tr>
+        <tr>
+            <th>Lakaiseminen</th>
+            <th><button class="inactive" id="3" onclick="taskcomplete('3')">X</button></th>
+        </tr>
+        <tr>
+            <th>Hiekkakenttä</th>
+            <th><button class="inactive" id="4" onclick="taskcomplete('4')">X</button></th>
+        </tr>
+        <tr>
+            <th>Grillaus</th>
+            <th><button class="inactive" id="5" onclick="taskcomplete('5')">X</button></th>
+        </tr>
+        <tr>
+            <th>Pölkyt</th>
+            <th><button class="inactive" id="6" onclick="taskcomplete('6')">X</button></th>
+        </tr>
+        <tr>
+            <th>Kävely</th>
+            <th><button class="inactive" id="7" onclick="taskcomplete('7')">X</button></th>
+        </tr>
+        <tr>
+            <th>Veden syvyys</th>
+            <th><button class="inactive" id="8" onclick="taskcomplete('8')">X</button></th>
+        </tr>
+        <tr>
+            <th>Kottikärryt</th>
+            <th><button class="inactive" id="9" onclick="taskcomplete('9')">X</button></th>
+        </tr>
+    </table>
+</body>
+
+</html>

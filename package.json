@@ -1,0 +1,14 @@
+{
+  "name": "jougossamme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node . 2"
+  },
+  "author": "Yes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
