@@ -19,6 +19,11 @@ td {
     padding-right: 20px;
 }
 
+p {
+    display: inline;
+    margin-right: 10px;
+}
+
 .pending {
     background-color: lightgray;
 }
