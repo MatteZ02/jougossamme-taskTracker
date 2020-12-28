@@ -7,11 +7,6 @@ const tasks = new Map();
 const game = new eventEmitter();
 let impostors = [];
 
-tasks.set("yes1", ["1", "2"]);
-tasks.set("yes2", ["3", "4"]);
-tasks.set("yes3", ["5", "6"]);
-tasks.set("yes4", ["7", "8", "9"]);
-
 app.use(express.static("public"));
 app.use(express.json());
 
